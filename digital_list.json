@@ -1,0 +1,75 @@
+{
+	"data": [{
+			"_id": "5f8d643c7cf5ddb3c842918f",
+			"deliveryDocument": "delDoc",
+			"createdDate": "2020-10-19T12:17:33Z",
+			"shipToParty": "string",
+			"customerNumber": "0000100016",
+			"itemData": {
+				"materialCode": "demo again",
+				"referenceDocumentNumber": "string",
+				"referenceDocumentItem": 0,
+				"quantityInSalesUnit": 0,
+				"itemShortText": "string"
+			},
+			"customerName": "BANSWARA SYNTEX LTD"
+		},
+		{
+			"_id": "5f8d659b7cf5ddb3c84291f1",
+			"deliveryDocument": "delDoc",
+			"createdDate": "2020-10-19T12:17:33Z",
+			"shipToParty": "0000010003",
+			"customerNumber": "000010003",
+			"itemData": {
+				"materialCode": "demo again",
+				"referenceDocumentNumber": "string",
+				"referenceDocumentItem": 0,
+				"quantityInSalesUnit": 0,
+				"itemShortText": "string"
+			},
+			"ShipToPartyName": "Banswara Syntex Ltd."
+		},
+		{
+			"_id": "5f8e72127cf5ddb3c842a65c",
+			"deliveryDocument": "delDoc",
+			"createdDate": "2020-10-19T12:17:33Z",
+			"shipToParty": "0000010003",
+			"customerNumber": "0000100016",
+			"itemData": {
+				"materialCode": "demo again",
+				"referenceDocumentNumber": "string",
+				"referenceDocumentItem": 0,
+				"quantityInSalesUnit": 0,
+				"itemShortText": "string"
+			},
+			"ShipToPartyName": "Banswara Syntex Ltd.",
+			"customerName": "BANSWARA SYNTEX LTD"
+		},
+		{
+			"_id": "5f8e72557cf5ddb3c842a66c",
+			"deliveryDocument": "delDoc",
+			"createdDate": "2020-10-19T12:17:33Z",
+			"shipToParty": "00000100016",
+			"customerNumber": "0000100016",
+			"itemData": {
+				"materialCode": "demo again",
+				"referenceDocumentNumber": "string",
+				"referenceDocumentItem": 0,
+				"quantityInSalesUnit": 0,
+				"itemShortText": "string"
+			},
+			"customerName": "BANSWARA SYNTEX LTD"
+		}
+	],
+	"selectFields": [
+		"shipToParty",
+		"customerNumber",
+		"deliveryDocument",
+		"createdDate",
+		"itemData.materialCode",
+		"itemData.itemShortText",
+		"itemData.quantityInSalesUnit",
+		"itemData.referenceDocumentNumber",
+		"itemData.referenceDocumentItem"
+	]
+}
